@@ -1,57 +1,87 @@
-# Hospital Management System  
-## Backend centric learning Astha Thapa
-A system application designed to streamline hospital operations, including patient registration, doctor appointments, and medical records management.  
+# Hospital Management System – QA Testing Project  
+## Astha Thapa  
+
+A MERN stack-based Hospital Management System tested for functionality, API reliability, and system behavior.
 
 ---
 
-##  **Objective**  
-- Digitize patient and doctor workflows.  
-- Manage appointments, medical history, and prescriptions efficiently.  
-- Provide secure access for admin, doctors, and patients.  
+## Objective  
+- Validate hospital management workflows  
+- Test APIs, authentication, and appointment system  
+- Ensure data integrity between frontend and backend  
 
 ---
 
-## **Tools & Technologies**  
-
-### **Frontend (React.js)**  
-- React.js (Functional Components + Hooks)  
-- React Router (Navigation)  
-- Context API / Redux (State Management)  
-- Axios (API Calls)  
-- Material-UI / TailwindCSS (Styling)  
-
-### **Backend (Node.js & Express.js)**  
-- Node.js (Runtime)  
-- Express.js (Server Framework)  
-- MongoDB (Database)  
-- Mongoose (ODM)  
-- JWT (Authentication)  
-- Bcrypt (Password Hashing)  
-
-### **Testing 
-- Postman (API Testing)   
+## Tools Used  
+- Postman (API Testing)  
+- Chrome DevTools (UI Testing)  
+- MongoDB Compass (Database Validation)  
+- Manual Testing  
 
 ---
 
-## Images
-![img1](./Images/img1.png)
-![img2](./Images/img2.png)
-![img5](./Images/img5.png)
+## Images (Project Evidence)
 
-## Conclusion
-This **Hospital Management System** demonstrates the power of the **MERN stack** (MongoDB, Express.js, React.js, Node.js) in building:  
-✔ **Scalable** - Handles growing patient/doctor data efficiently  
-✔ **Secure** - JWT authentication & encrypted data  
-✔ **Efficient** - Streamlines hospital workflows  
+### System UI Screenshots  
+![img1](./Images/img1.png)  
+![img2](./Images/img2.png)  
+![img5](./Images/img5.png)  
 
-### 🔮 Future Enhancements  
-- **AI Diagnostics** - Predictive analysis for patient health  
-- **Telemedicine** - Video consultations & remote care  
-- **Multi-language Support** - For global accessibility  
-- **IoT Integration** - Wearable health monitoring
+### Git & Backend Recovery Evidence  
+![img6](./Images/img6.png)  
 
-# Lost Commit Recovery
+---
 
-Critical backend commits were lost during merging local and repo which not yet seen at commit. Recovered via `git reflog` - includes appointment logic, auth APIs, and Cloudinary setup.
+## Testing Activities  
 
-![Git reflog output](./Images/img6.png)
+### API Testing  
+- Patient registration API  
+- Login authentication API  
+- Appointment booking API  
+- Messaging system API  
+- Verified status codes, responses, and error handling  
+
+---
+
+### Functional Testing  
+- User registration and login flow  
+- Doctor appointment scheduling  
+- Admin dashboard operations  
+
+---
+
+### Negative Testing  
+- Empty and invalid input validation  
+- Unauthorized access attempts  
+- Missing authentication token cases  
+
+---
+
+### UI Testing  
+- Form validation checks  
+- Navigation flow testing  
+- Basic responsiveness verification  
+
+---
+
+## Test Cases  
+
+| Test Case | Expected Result | Status |
+|-----------|----------------|--------|
+| Valid login | User logs in successfully | Pass |
+| Invalid email | Error message displayed | Pass |
+| Book appointment | Appointment created | Pass |
+
+---
+
+## Bugs Identified  
+- Missing validation in phone input field  
+- No error message for empty login fields  
+- Weak handling of invalid API requests  
+
+---
+
+## Result  
+Core functionalities of the system were successfully tested. Most features worked correctly, with minor issues found in validation and error handling.
+
+ 
