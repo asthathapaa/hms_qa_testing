@@ -28,10 +28,8 @@ A system application designed to streamline hospital operations, including patie
 - JWT (Authentication)  
 - Bcrypt (Password Hashing)  
 
-### **Testing & Deployment**  
-- Postman (API Testing)  
-- Firebase / Vercel (Frontend Hosting)  
-- Render / AWS (Backend Hosting)  
+### **Testing 
+- Postman (API Testing)   
 
 ---
 
